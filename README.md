@@ -2,6 +2,15 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+Lets you check **_"definitely never seen before"_** or **_"maybe seen before"_**, with **_very efficient_** space and time complexity.
+
+Where `b` = bits and `h` = hash function(s):
+
+- Space complexity = `O(b)`
+- Time complexity = `O(h)`
+
+Which is basically `O(1)` since both `b` and `h` are constants. <https://brilliant.org/wiki/bloom-filter/#time-and-space-complexity>
+
 <https://www.youtube.com/watch?v=-SuTGoFYjZs> -> Bloom filters are good for checking if something hasn't been seen before or isn't in a list (like usernames or a URL reject list).
 
 <https://en.wikipedia.org/wiki/Bloom_filter#Algorithm_description>
